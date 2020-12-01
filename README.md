@@ -24,6 +24,12 @@ It's also possible to use a different gitlab url
 ./gitlab-hours_<your os> -project=<project> -apikey=<apikey> -url=https://gitlab.com/api/v4
 ```
 
+Make the binary executable:
+
+```bash
+chmod +x ./gitlab-hours_<your os>
+```
+
 ## Api key
 Get a new personal access token [here](https://gitlab.com/-/profile/personal_access_tokens).
 Make sure to grant the **api** permission so time spent requests can be made
