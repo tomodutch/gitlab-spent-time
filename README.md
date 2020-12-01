@@ -27,6 +27,8 @@ git commit -m "Spend time on #18+1h30m #20+30m"
 Create a `post-commit` hook file in the `.git/hooks` directory with the following content:
 
 ```
+#!/bin/sh
+
 ./gitlab-hours_<your os> -project=<project> -apikey=<apikey> -repo=/path/to/git/repo
 ```
 

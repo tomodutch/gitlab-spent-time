@@ -1,2 +1,4 @@
+#!/bin/sh
+
 ./gitlab-hours_darwin_amd64 -project=<project> -apikey=<apikey>
 echo "record time"
