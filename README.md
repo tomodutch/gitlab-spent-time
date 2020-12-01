@@ -10,6 +10,17 @@ git commit -m "Spend time on #18+1h"
 git commit -m "Spend time on #18+1h30m #20+30m"
 ```
 
+**Output**
+
+```bash
+➜  test-repo git:(master) ✗ git commit -m "#18+1h #19+2h"
+2020/12/01 21:05:48 Recording time for project: 22124214 issue: 18 time: 1h
+2020/12/01 21:05:50 Recording time for project: 22124214 issue: 19 time: 2h
+[master 8f810ad] #18+1h #19+2h
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test3
+```
+
 # Getting started
 [Download](https://github.com/TFarla/gitlab-spent-time/releases) the binary for your system.
 
