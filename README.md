@@ -24,6 +24,9 @@ It's also possible to use a different gitlab url
 ./gitlab-hours_<your os> -project=<project> -apikey=<apikey> -url=https://gitlab.com/api/v4
 ```
 
-# Api key
+## Api key
 Get a new personal access token [here](https://gitlab.com/-/profile/personal_access_tokens).
 Make sure to grant the **api** permission so time spent requests can be made
+
+## Project id
+The project id is an integer and can be found on the repository page
