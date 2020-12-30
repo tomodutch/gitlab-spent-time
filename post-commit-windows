@@ -1,0 +1,3 @@
+#!/bin/sh
+
+powershell -ExecutionPolicy Bypass -Command 'C:\Git\my-repo\.git\hooks\post-commit.ps1'
